@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0a2495, #3c0871);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#submitBtn {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submitBtn:hover:hover {
+    background: #5a67d8;
+}
+
+#search {
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact {
+    background: #f4f6ff;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.contact:hover {
+    transform: scale(1.02);
+}
+
+.buttons {
+    margin-top: 8px;
+}
+
+.edit-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

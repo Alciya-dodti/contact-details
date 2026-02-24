@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1> Smart Contact Manager</h1>
+
+    <div class="form-box">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email Address">
+        <input type="text" id="phone" placeholder="10 Digit Phone Number">
+
+        <button id="submitBtn" onclick="addOrUpdateContact()">Add Contact</button>
+    </div>
+
+    <input type="text" id="search" placeholder=" Search by name or email" onkeyup="searchContact()">
+
+    <h3>Total Contacts: <span id="count">0</span></h3>
+
+    <div id="contactList" class="contact-list"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
